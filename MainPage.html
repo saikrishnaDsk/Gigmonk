@@ -1,53 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	
-	
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<link rel="shortcut icon" href="favicon.png" type=”image/png”>
-
+	<link rel=”shortcut icon” href=”http://www.mysites.com/favicon.ico” type=”image/icon”>
 	<title>Gigmonk</title>
+	<style type="text/css" media="screen">
+		h1
+		{
+			font-size: 30px;
+			color: white;
+			padding: 5px;
+		}
+		h2
+		{
+			font-size: 30px;
+			color: purple;
+			padding: 5px;
+		}
+		h3
+		{ 
+			font-size: 15px;
+			color: red;
+		}
+	
+	div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
 
-	<!--References to jquery and bootstrap-->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+div a {
+    text-decoration: ;
+    color: red;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+}
+</style>
 </head>
 <body>
 
-	<nav class="navbar navbar-fixed-top " >
-	
+<div class="container">
 
-		<div class="container" align="center" >
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				 <span class="sr-only">Toggle navigation</span> 
-				 <span class="icon-bar"></span> 
-				 <span class="icon-bar"></span> 
-				 <span class="icon-bar"></span> </button> 
-				 <a class="navbar-brand" href="#">Project name</a> 
-			</div>
-		
-			<div id="navbar" class="collapse navbar-collapse" > 
-				<ul class="nav navbar-nav navbar-right " > 
-					<li><a href="#">Home</a></li> 
-					<li><a href="#about">About</a></li> 
-					<li><a href="#contact">Contact</a></li> 
-				</ul> 
-			</div>
-		 </div>
-	</nav>
+<header>
+   <h1>Welcome to Gigmonk Events</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Event Calender</a></li>
+    <li>
+		<a href="#">Event Category</a>
+			<ul>
+			<li><a href="#">Wedding</a></li>
+			<li><a href="#">Award Ceremony</a></li>
+			<li><a href="#">Conference</a></li>
+			<li><a href="#">Product Launch</a></li>
+			</ul>
+	</li>
+    <li><a href="#">contact us</a></li>
+  </ul>
+</nav>
 
-	<div class="container">
+<article>
+  <h2>About us</h2>
+  <p>Gig Monk is full spectrum of events ,production ,club events and online magazine in south India, Gigmonk Events is a full-service event management company in hyderabad dedicated to quality and excellence.</p>
+  <p> Since our establishment in 2013, we have continuously strived towards the flawless execution of events. We manage events across all major areas the state.</p>
+  <p>No matter what your requirement may be, our first priority lies in gaining an in-depth understanding of how your business works, what you hope to achieve, and what we can do to deliver results that exceed all expectations.
+</p><p>At Gigmonk Events, your money is important – to you and us. We ensure cost-effective service, accountability and flexibility. Most of all, we treat your event like it is ours. Whatever your budget, we have solutions you will not find elsewhere.  We are transparent and Systematic in the was of delivering work and showing our live progress.</p>
+</p>
+</article>
 
-      
-    </div>
+<footer>Still Under progress </footer>
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+</div>
+
+	<script  type="text/javascript" charset="utf-8" async defer>
+		$('h1').hover( function(event){
+			$(this).css(color, red);
+		});
+	</script>
+</head>
+
+<body bgcolor="white">
+<p>
+<h1 align="center"  > </h1>
+<h3 align="center">  </h3>
+<p align="center"> 
+
+ </p>
+</p>
 </body>
 </html>
